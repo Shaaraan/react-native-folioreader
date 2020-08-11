@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.reactnativefolioreader">
-
+  xmlns:tools="http://schemas.android.com/tools"
+  package="com.reactnativefolioreader">
+  <uses-sdk tools:overrideLibrary="com.folioreader" />
 </manifest>
